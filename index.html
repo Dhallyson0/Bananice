@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bananice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+
+    <header class="header_container">
+
+            <img src="imagem/LOGO_AMARELA.webp" alt="Logo do site Bananice" width="78px" height="70px">
+        
+            <!-- Navegação -->
+
+            <nav class="menu_nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#medidas">Medidas</a></li>
+                    <li><a href="#receitas">Receitas</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Sobre nós -->
+
+        <section id="sobre">
+
+            <div class="sobre_container">
+                <img src="imagem/BANNER.webp" alt="Bem vindo ao Bananice" width="680px" height="380px">
+
+            <div class="sobre_texto">
+
+                <h2>Sobre nós:</h2>
+                <p>Somos estudantes do 2º período de Ciências da Computação e criamos este site como parte do trabalho avaliativo de web coding.  
+                Nosso objetivo é aplicar os conhecimentos de HTML e CSS de forma criativa, trazendo um tema divertido: as melhores receitas com banana.</p> 
+                <p>Participantes: Dhallyson, Joanne, Raphael, Hudson e Ivo.</p>
+            </div>
+            </div>
+
+        </section>
+
+        <!-- Medidas -->
+
+        <section id="medidas">
+
+        <h2 class="titulo">Medidas</h2>
+
+            <div class="medidas_container">
+
+                <div class="medidas_item">
+                    <img src="imagem/COLHER.webp" alt="Ícone de colher de sopa" width="50px" height="50px">
+                    <p>1 colher de sopa</p>
+                    <p>=</p>
+                    <p>15ml</p>
+                </div>
+
+                <div class="medidas_item">
+                    <img src="imagem/COLHER.webp" alt="Ícone de colher de chá" width="50px" height="50px">
+                    <p>1 colher de chá</p>
+                    <p>=</p>
+                    <p>5ml</p>
+                </div>
+
+                <div class="medidas_item">
+                    <img src="imagem/XICARA.webp" alt="Ícone de xicara" width="50px" height="50px">
+                    <p>1 xicara de chá</p>
+                    <p>=</p>
+                    <p>240ml</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Receitas -->
+
+        <section id="receitas">
+
+            <h2 class="titulo">Receitas</h2>
+
+            <div class="receitas_container">
+
+                <div class="receita_item">
+                    <a href="bolo.html">
+                    <img src="imagem/BOLO.webp" alt="Foto de Bolo de banana caramelizada" width="120px" height="120px">
+                    <h3>Bolo de banana caramelizada</h3>
+                    </a>
+                </div>
+
+                <div class="receita_item">
+                    <a href="chips.html">
+                    <img src="imagem/CHIPS.webp" alt="Foto de Chips de banana" width="120px" height="120px">
+                    <h3>Chips de banana</h3>
+                    </a>
+                </div>
+
+                <div class="receita_item">
+                    <a href="panquecas.html">
+                    <img src="imagem/PANQUECAS.webp" alt="Foto de Panquecas de banana" width="120px" height="120px">
+                    <h3>Panquecas de banana</h3>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contato -->
+
+        <section id="contatos">
+            <h2 class="titulo">Fale Conosco</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Envie sua mensagem</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="nome" placeholder="Digite seu nome">
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(99) 9 9999-9999">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea type="mensagem" name="mensagem" id="mensagem" rows="6" placeholder="Digite sua dúvida ou sugestão"></textarea>
+
+                    <div class="botoes">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bananice - Todos os direitos reservados</p>
+        <img src="imagem/LOGO_BRANCA.webp" alt="Logo do site Bananice" width="68" height="60">
+    </footer>
+   
+</body>
+</html>

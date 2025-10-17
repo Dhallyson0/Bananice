@@ -1,0 +1,241 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+  background-color: #fff2ce;
+  color: #4d3a2b;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+/* cabeçalho */
+.header_container{
+  margin: 10px;
+  align-items: center;
+}
+
+.menu_nav {
+  align-items: center;
+  font-size:larger;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+
+/* cores das opções */
+nav ul li a {
+  color: #4d3a2b;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #fcbc45;
+}
+
+/* Sobre nós */
+.sobre_container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 40px 50px 100px;
+}
+.sobre_texto {
+  align-items: center;
+  gap: 15px;
+  margin: 40px 50px 100px;
+}
+
+.sobre_container img {
+  border-radius: 10px;
+}
+
+/* Medidas */
+.titulo {
+  text-align: center;
+  margin: 0px 0px 30px;
+}
+
+.medidas_container {
+  display: flex;
+  height: 110px;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.medidas_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* receitas */
+.receitas_container {
+  display: flex;
+  height: 290px;
+  gap: 130px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.receita_item {
+  background-color: #fce197;
+  width: 280px;
+  height: 220px;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+.receita_item h3 {
+  color:#4d3a2b;
+  text-decoration: underline;
+  position: relative;
+  top: -30px;
+}
+.receita_item h3:hover {
+  color:#fefaf1;
+  transition: color 0.2s;
+}
+
+.receita_item img {
+  border-radius: 50%; 
+  position: relative;
+  top: -40px;
+}
+
+/* Contatos */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid #fce197;
+  background-color: #fff7e0;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+fieldset {
+  border: none;
+}
+
+label{
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input,textarea{
+  display: block;
+  background-color: #fff6df;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 5px auto 15px;
+  border: solid 1px #99806d;
+  border-radius: 5px;
+}
+
+.botoes{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px
+}
+
+.botoes button {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #fcc351;
+  color: #4d3a2b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botoes button:hover{
+  background-color: #fdde89;
+
+}
+
+/* rodapé */
+footer {
+  background-color: #fcbc45;
+  color: #4d3a2b;
+  font-size: medium;
+  padding: 10px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;        
+  text-align: center;
+  justify-content: center;
+}
+
+footer img {
+  position: absolute;  
+  right: 5px;             
+}
+
+
+/* RECEITAS */
+/* bolo */
+
+.botoes_receitas {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fcc351;
+  color: #4d3a2b;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-left: 30px;
+}
+
+.botoes_receitas:hover {
+  background-color: #fce197;
+}
+
+.receita_container {
+  background-color: #fce197;
+  width: 1000px;
+  height: fit-content;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.ingredientes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista_ingredientes {
+  flex: 2;
+}
+
+.imagem_ingredientes img {
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  align-items:end;
+}
+
+.ingredientes, .preparo {
+  align-items: center;
+  gap: 15px;
+  margin: 20px 30px;
+  padding: 10px;
+}
